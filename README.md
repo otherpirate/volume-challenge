@@ -39,4 +39,4 @@ Bonus: My first idea was find all possible paths that user can travel, like sear
 
 
 ## Tests
-The API layer and business logic layer has unit tests
+The business logic layer has unit tests
