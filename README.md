@@ -2,7 +2,9 @@
 Senior Software Engineer Take-Home Programming Assignment for Golang
 
 ## How to run
+```shell
 PORT=8080 go run cmd/api/main.go
+```
 
 ## Endpoints
 
@@ -33,7 +35,7 @@ I had ths `pather` variable where I keep all in/out flights, so:
 
 I tried to map all case in the unit tests of `pather_test.go` file
 
-Bonus: My first tough was find all possible paths that user can travel, like searching for flights. Then I read one more time the challenge and I decide that I'm wrong. I let the graph code in the repo because I like it :)
+Bonus: My first idea was find all possible paths that user can travel, like searching for flights. Then I did read one more time the challenge and I decided that I'm wrong. I let the graph code in the repo because I liked it :)
 
 
 ## Tests
