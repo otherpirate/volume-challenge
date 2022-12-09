@@ -12,10 +12,12 @@ func main() {
 	router := gin.Default()
 	router.POST("/calculate", api.Calculate)
 	router.POST("/paths", api.Paths)
+
 	port := os.Getenv("PORT")
 	if port == "" {
 		port = "8080"
 	}
-	router.Run(fmt.Sprintf(":%s", port))
-
+	if err := router.Run(fmt.Sprintf(":%s", port)); err != nil {
+		panic(err)
+	}
 }
